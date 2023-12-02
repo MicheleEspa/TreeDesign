@@ -1,0 +1,153 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <LINK REL="ICON" href="icon.ico" >
+        <title> Home | TreeDesign  </title>   
+        <style>
+            body {
+                background-image: url('IceTree.png');
+                background-repeat: no-repeat;
+                background-size: relative, 100%; 
+                margin: 0; 
+            }
+
+            #navbar {
+                background-color: rgb(255, 255, 255); 
+                position: static;
+            }
+
+
+
+            @media (max-width: 739px) {
+                body {
+                    background-position: center;
+                    
+                }
+
+                #window {
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    text-align: center;
+                }
+                
+                
+                #window img {
+                    display: none;
+                }
+
+                #logo {
+                    margin-left: 140px;
+                    width: 150px;
+
+                }
+
+                #social-icons img {
+                    width: 33px;
+                }
+                
+            }
+
+            @media (min-width: 740px) {
+                body {
+                background-position: right; 
+                }
+            }
+
+            @media (max-width: 1024px) {
+                body {
+                    background-size: cover;
+                }
+
+                #navbar2 {
+                    display: none;
+                }
+                
+                .line {
+                    display: none;
+                }
+    
+            }
+
+        </style> 
+    
+    </head>
+    <body>
+        <header>
+            
+
+            <div class="menu-toggle">
+                <div class="hamburger" id="clickhere">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+              
+                        
+            <div id="navbar">
+                <ul class="menu">
+                    <span><a href="explore.html"><li>Esplora</li></a></span>
+                    <span><a href="commission.html"><li>Commissiona</li></a></span>
+                    <span><a href="login.html"><li>Accedi</li></a></span>
+                </ul>
+            </div>
+            <div class="line"></div>
+        </header>
+        <div id="navbar2">
+            <ul>
+                <li><a href="explore.html">Arredamento</a></li>
+                <li><a href="explore.html">Tecnologia</a></li>
+                <li><a href="explore.html">Ambiente</a></li>
+                <li id="nav2hide"><a href="explore.html">Miscellanea</a></li>
+            </ul>
+        </div>
+
+
+        <div id="hidemenu">
+            <ul>
+                <a href="explore.html"><li>Esplora</li></a>
+                <a href="commission.html"><li>Commissiona</li></a>
+                <a href="login.html"><li>Accedi</li></a>
+            </ul>
+        </div>
+
+        
+
+            <div id="social-icons">
+                <img src="facebook.png" alt="" width="50px">
+                <img src="instagram.png" alt="" width="50px">
+            </div>
+            <br>
+            
+            <div id="logo">
+                <a href="index.html"><img src="logo.png" alt="" width="220px"></a>
+            </div>
+
+
+        
+        <br>
+
+        <div id="window">
+        <p><span class="windowtitle"> SFOGLIA IL CATALOGO </span><br><br>
+        TreeDesign offre una vasta gamma di oggetti 3D da usare nelle tue creazioni o sul metaverso. <br><br><br>
+        <button><a href="explore.html"> ESPLORA </a></button></p>
+        <img src="room.png" alt="" width="250px">
+        </div>
+
+        <br>
+        <div id="window">
+        <p><span class="windowtitle"> RICHIEDI UN LAVORO SU COMMISSIONE </span><br><br>
+        TreeDesign può occuparsi della creazione dell’oggetto 3D e della gestione della stampa fisica. <br><br><br>
+        <button><a href="commission.html"> COMMISSIONA </a></button></p>
+        <img src="spider.png" alt="" width="250px">
+        </div>
+
+
+        
+        <p id="copyright">Creator's name: Michele Espa. 2023 © All rights reserved. </p>
+
+
+    </body>
+</html>
